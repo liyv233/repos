@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+   
+   
+}
+.index-box {
+    position: relative;
+    width: 1920px;
+    height: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: url(imgs/326206.jpg) no-repeat center center
+    ;
+    background-size: cover;
+}
+
+.index-box .nav-box {
+    float: left;
+    position: fixed; 
+    /* width: 23%;
+    height: 100%; */
+    width: 438px;
+    height: 970px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.index-box .nav-box  .head {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(69, 72, 154);
+    overflow: hidden;
+}
+.nav-box  .head .head-con {
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    width: 90%;
+    height: 70%;
+    border: 3px solid rgb(99, 102, 169);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
+.nav-box  .head .head-con .p {
+    position: relative;
+    top: 40%;
+    left: 37%;
+  width: 20%;
+  height: 30%;
+
+}
+.nav-box  .head .head-con h3 {
+position: absolute;
+top: 0;
+left: 0;
+color: rgb(223, 223, 237);
+font-weight: 900;
+font-size: 20px;
+}
+.nav-box  .head .head-con h4 {
+position: absolute;
+top: 0;
+right: 0;
+color: rgb(196, 197, 222);
+font-weight: 400;
+font-size: 20px;
+}
+
+.nav-box .nav-con {
+    position: relative;
+    top: 28%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+  
+}
+.nav-box .nav-con ul li {
+    position: relative;
+    padding: 12px;
+
+}
+.nav-box .nav-con ul li .line {
+    float: left;
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(79, 77, 76);
+}
+.line-active {
+    width: 35px !important;
+    margin-right: 5px;
+}
+.ball-active {
+    background-color: rgb(255, 255, 255);
+}
+.nav-box .nav-con ul li .ball {
+    float: left;
+    margin-top: 7px;
+    margin-left: 0;
+    margin-right: 15px;
+    width: 10px;
+    height: 10px;
+   
+    border: 2px solid rgb(163, 164, 164);
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+.nav-box .nav-con ul li a {
+
+ margin-left:5px ;
+ font-size: 18px;
+ font-weight: 400;
+ color: rgb(158, 158, 157);
+}
+
+.nav-floor {
+    position: relative;
+    top: 390px;
+    left: 0;
+    width: 100%;
+    height: 28px;
+   
+}
+.nav-floor ol {
+    position: relative;
+    top: 2px;
+    left: 120px;
+    width: 60%;
+    
+}
+.nav-floor ol li {
+    float: left;
+    margin-left: 20px;
+}
+.nav-floor ol li  img {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(209, 202, 202);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.right-box {
+    z-index: 9;
+    float: right;
+    width: 30%;
+    height:100%;
+
+}
+
+.right-box .btn-box {
+    position: relative;
+    top: 40px;
+   left: 360px;
+    width: 120px;
+    height: 50px;
+
+}
+.right-box .btn-box div {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(32, 31, 30, 0.7);
+  margin-right: 10px;
+}
+
+.right-box .btn-box h1 {
+    color: rgb(255, 254, 254);
+}
+.right-box .btn-box .l-btn h1 {
+    margin-left: 10px;
+}
+.right-box .btn-box .r-btn h1 {
+    margin-left: 10px;
+}
+
+.right-box .p-box {
+    position: relative;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+   
+}
+
+.right-box .p-box h3 {
+    color: rgb(253, 253, 253);
+    font-size: 50px;
+}
+.right-box .p-box h3:nth-child(2) {
+    position: relative;
+    left: 320px;
+}
+.right-box .p-box p {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    color: rgb(212, 216, 218);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.right-box .p-box p:nth-of-type(2) {
+    margin-left: 165px;
+}
+.right-box .more-btn {
+    position: relative;
+    top: 250px;
+    left: 330px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.right-box .more-btn a {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgb(20, 21, 36);
+}
+
+.pa2-box    {
+    position: relative;
+    width: 1920px;
+    height: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.pa2-box .com-box {
+   
+    float: right;
+    width: 72%;
+    height: 970px;
+    overflow: hidden;
+ 
+}
+.pa2-box .com-box .p-box {
+    position: relative;
+    width: 520px;
+    height: 100px;
+    
+}
+.pa2-box .com-box .p-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(105, 107, 126);
+}
+.pa2-box .com-box .p-box h4 {  
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(77, 83, 165);
+}
+.pa2-box .com-box .p-box  p {
+    position: relative;
+    top: -60px;
+    left: 180px;
+    color: rgb(130, 129, 134);
+    margin-bottom: 5px;
+}
+
+.pa2-box .com-box  .btn-box {
+    position: relative;
+    top: -40px;
+   left: 90%;
+    width: 120px;
+    height: 50px;
+}
+.pa2-box .com-box .btn-box div {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(238, 238, 238, 0.7);
+    margin-right: 10px;
+  }
+  
+  .pa2-box .com-box .btn-box h1 {
+      color: rgb(37, 33, 33);
+  }
+  .pa2-box .com-box .btn-box .l-btn h1 {
+      margin-left: 10px;
+  }
+  .pa2-box .com-box .btn-box .r-btn h1 {
+      margin-left: 10px;
+  }
+
+  .pa2-box .com-box .con{
+     
+    width: 100%;
+    height: 80%;
+    
+  }
+
+  .pa2-box .com-box .con ul {
+      height: 100%;
+      width: 400%;
+  }
+
+  .pa2-box .com-box .con ul li {
+      float: left;
+      width: 435px;
+      height: 700px;
+ 
+      margin-right: 26px;
+  }
+
+  .pa2-box .com-box .con ul li .picture {
+   width: 100%;
+   height: 520px;
+   overflow: hidden;
+   position: relative;
+  
+}
+.pa2-box ul  li:nth-of-type(1) .picture {
+    background: url(imgs/79924.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(2) .picture {
+    background: url(imgs/81006.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(3) .picture {
+    background: url(imgs/543446.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(4) .picture {
+    background: url(imgs/899925.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(5) .picture {
+    background: url(imgs/282802.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(6) .picture {
+    background: url(imgs/124927.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(7) .picture {
+    background: url(imgs/111891.jpg) no-repeat center center ;
+    background-size: cover;
+}
+.pa2-box ul  li:nth-of-type(8) .picture {
+    background: url(imgs/81006.jpg) no-repeat center center ;
+    background-size: cover;
+}
+
+.pa2-box ul  li:nth-of-type(9) .picture {
+    background: url(imgs/69606.jpg) no-repeat center center ;
+    background-size: cover;
+}
+ 
+  .pa2-box ul li .picture .p {
+    display: none;
+      position: absolute;
+      bottom: 0;
+      z-index: 9;
+      width: 100%;
+      height: 40px;
+      background-color: rgba(67, 69, 142,.8);
+
+  }
+  .pa2-box ul li .picture .p p {
+    margin-top: 10px;
+    margin-left: 150px;
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .p-active {
+  display: block !important;
+  }
+  .pa2-box ul li .con-p h4 {
+      margin-top: 10px;
+      font-size: 21px;
+      color: rgb(77, 77, 77);
+  }
+  .pa2-box ul li .con-p p {
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+   
+  }
+  .pa2-box ul li .con-p p:nth-of-type(2) {
+      margin-top: 20px;
+      color: rgb(116, 116, 116);
+      font-size: 16px;
+      line-height: 28px;
+  }
+  .pa2-box .ball {
+      position: relative;
+      top: -40px;
+      left: 650px;
+      width: 60px;
+      height: 15px;
+      
+  }
+  .pa2-box .ball ol li {
+      float: left;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      background-color: rgb(205, 205, 205);
+      margin-right: 5px;
+}
+
+.ball-active {
+    background-color: rgb(69, 72, 154) !important;
+}
+
+.pa3-box    {
+    position: relative;
+    width: 1920px;
+    height: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+.pa3-box .com-box {
+    /* position: relative;
+    top: 20px;
+    left: 27%; */
+    width: 74%;
+    height: 970px;
+    overflow: hidden;
+    margin-top: 50px;
+    float: right;
+}
+.pa3-box .com-box .p-box {
+    position: relative;
+    width: 520px;
+    height: 100px;
+    
+}
+.pa3-box .com-box .p-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(105, 107, 126);
+}
+.pa3-box .com-box .p-box h4 {  
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(77, 83, 165);
+}
+.pa3-box .com-box .p-box  p {
+    position: relative;
+    top: -60px;
+    left: 180px;
+    color: rgb(130, 129, 134);
+    margin-bottom: 5px;
+}
+
+.pa3-box .picture-box {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 75%;
+   
+}
+.pa3-box .picture-box div {
+    float: left;
+}
+.pa3-box .picture-box div:nth-of-type(1) {
+    width: 915px;
+    height: 720px;
+    background: url(imgs/475841.jpg) no-repeat center center ;
+    background-size: cover;
+    margin-right: 30px;
+}
+.pa3-box .picture-box div:nth-of-type(2) {
+    margin-right: 0;
+    width: 440px;
+    height: 340px;
+    background: url(imgs/81006.jpg) no-repeat center center ;
+    background-size: cover;
+    
+}
+.pa3-box .picture-box div:nth-of-type(3) {
+    width: 440px;
+    height: 340px;
+    background: url(imgs/282802.jpg) no-repeat center center ;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.pa4-box    {
+    position: relative;
+    width: 1920px;
+    height: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+}
+
+.pa4-box .com-box {
+    position: relative;
+    top: 20px;
+    left: 27%;
+    width: 74%;
+    height: 970px;
+    overflow: hidden;
+    margin-top: 50px;
+  
+}
+.pa4-box .com-box .p-box {
+    position: relative;
+    width: 520px;
+    height: 100px;
+    
+}
+.pa4-box .com-box .p-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(105, 107, 126);
+}
+.pa4-box .com-box .p-box h4 {  
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(77, 83, 165);
+}
+.pa4-box .com-box .p-box  p {
+    position: relative;
+    top: -60px;
+    left: 180px;
+    color: rgb(130, 129, 134);
+    margin-bottom: 5px;
+}
+.pa4-box .com-box .con-p {
+    background-color: rgb(244, 244, 244);
+    width: 1400px;
+    height: 780px;
+}
+
+.pa4-box .com-box .nav {
+    width: 100%;
+    height: 80px;
+}
+.pa4-box .com-box .nav li {
+    float: left;
+    width: 345px;
+    height: 80px;
+    
+    
+}
+.pa4-box .com-box .nav li p {
+    color: rgb(30, 30, 30);
+    font-size: 18px;
+    margin-left: 125px;
+    font-weight: 600;
+    margin-top: 28px;
+}
+.nav-active {
+    background-color: rgb(69, 72, 154);
+    
+}
+.p-active {
+    color: white !important;
+} 
+.pa4-box .line0 {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(69, 72, 154);
+}
+.pa4-box .line {
+    position: relative;
+    width:1390px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.pa4-box .line:nth-of-type(1) .picture  {
+width: 300px;
+height: 200px;
+background: url(imgs/83206.jpg) no-repeat center center;
+background-size: cover;
+overflow: hidden;
+}
+.pa4-box .line:nth-of-type(2) .picture  {
+    width: 300px;
+    height: 200px;
+    background: url(imgs/554567.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    }
+    .pa4-box .line:nth-of-type(3) .picture  {
+        width: 300px;
+        height: 200px;
+        background: url(imgs/124927.jpg) no-repeat center center;
+        background-size: cover;
+        overflow: hidden;
+   }
+            
+ .pa4-box .line .p-box {
+     position: absolute;
+     top: 0px;
+     left: 340px;
+     width: 1000px;
+    height: 200px;
+    
+ }
+ .pa4-box .line .p-box h3 {
+     margin-top: 5px;
+     font-size: 22px;
+     color: rgb(66, 65, 65);
+ }
+ .pa4-box .line .p-box h4 {
+   
+    font-size: 16px;
+    color: rgb(133, 132, 132);
+}
+.pa4-box .line .p-box p {
+   position: relative;
+   top: 15px;
+   left: 0px;
+   
+    display: block;
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    line-height: 30px;
+}
+.pa4-box .line .p-box a {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    display: block;
+    width: 155px;
+    height: 30px;
+    background-color: rgb(69, 72, 154);
+    
+}
+.pa4-box .line .p-box a p {
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-left: 20px;
+}
+.pa4-box ul  {
+    width: 400%;
+}
+.pa4-box ul li {
+    float: left;
+    width: 1390px;
+}
+
+
+
+
+
+.pa5-box    {
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+.pa5-box .com-box {
+    position: relative;
+    top: 80px;
+    left: 27%;
+    width: 74%;
+    height: 660px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+.pa5-box .com-box .p-box {
+    position: relative;
+    width: 520px;
+    height: 100px;
+    
+}
+.pa5-box .com-box .p-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(105, 107, 126);
+}
+.pa5-box .com-box .p-box h4 {  
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(77, 83, 165);
+}
+.pa5-box .com-box .p-box  p {
+    position: relative;
+    top: -60px;
+    left: 180px;
+    color: rgb(130, 129, 134);
+    margin-bottom: 5px;
+}
+.pa5-box .com-box .list-box {
+    position: relative;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+.pa5-box .list input {
+    float: left;
+    width: 443px;
+    height: 50px;
+    margin-right: 25px;
+    background-color: rgb(244, 244, 244);
+    border: 0 none;  
+    color: rgb(148, 148, 148);
+    line-height: 50px;
+    font-size: 18px;
+    outline: 0;
+}
+
+.pa5-box  textarea {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: rgb(244, 244, 244);
+    font-size: 18px;
+    color: rgb(148, 148, 148);
+    border: 0 none;  
+    outline: 0;
+}
+
+.pa5-box .btn input{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: rgb(69, 72, 154);
+    color: white;
+  
+}
