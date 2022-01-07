@@ -17,13 +17,14 @@ a {
 }
 .index-box {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 970px;
     overflow: hidden;
     margin: 0 auto;
     background: url(imgs/326206.jpg) no-repeat center center
     ;
     background-size: cover;
+    z-index: 1;
 }
 
 .index-box .nav-box {
@@ -250,8 +251,7 @@ font-size: 20px;
 
 .pa2-box    {
     position: relative;
-    width: 1920px;
-    height: 970px;
+    width: 100%;    height: 970px;
     overflow: hidden;
     margin: 0 auto;
     margin-top: 50px;
@@ -260,7 +260,8 @@ font-size: 20px;
 .pa2-box .com-box {
    
     float: right;
-    width: 72%;
+    /* width: 72%; */
+    margin: 10px;
     height: 970px;
     overflow: hidden;
  
@@ -315,7 +316,6 @@ font-size: 20px;
   }
 
   .pa2-box .com-box .con{
-     
     width: 100%;
     height: 80%;
     
@@ -442,8 +442,7 @@ font-size: 20px;
 
 .pa3-box    {
     position: relative;
-    width: 1920px;
-    height: 970px;
+    width: 100%;    height: 970px;
     overflow: hidden;
     margin: 0 auto;
     
@@ -518,8 +517,7 @@ font-size: 20px;
 
 .pa4-box    {
     position: relative;
-    width: 1920px;
-    height: 970px;
+    width: 100%;    height: 970px;
     overflow: hidden;
     margin: 0 auto;
     margin-top: 50px;
@@ -683,8 +681,7 @@ overflow: hidden;
 
 .pa5-box    {
     position: relative;
-    width: 1920px;
-    height: 800px;
+    width: 100%;    height: 800px;
     overflow: hidden;
     margin: 0 auto;
     margin-top: 50px;
